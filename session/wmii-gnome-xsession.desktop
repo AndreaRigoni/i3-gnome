@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GNOME + wmii
+Comment=This session logs you into GNOME with wmii as the window manager
+Exec=gnome-session-wmii
+TryExec=wmii-gnome
+Icon=
+Type=Application
+DesktopNames=GNOME
+X-Ubuntu-Gettext-Domain=gnome-session-3.0

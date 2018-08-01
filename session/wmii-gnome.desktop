@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=wmii-gnome
+NoDisplay=true
+Comment=improved dynamic tiling window manager
+Exec=wmii-gnome
+X-GNOME-WMName=wmii-gnome
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=false

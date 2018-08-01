@@ -1,0 +1,13 @@
+session/gnome-session-wmii
+session/wmii-gnome
+session/wmii-gnome-xsession.desktop
+session/wmii-gnome.desktop
+session/wmii-gnome.session
+LICENSE.txt
+Makefile
+README.md
+session/gnome-session-i3
+session/i3-gnome
+session/i3-gnome-xsession.desktop
+session/i3-gnome.desktop
+session/i3-gnome.session
