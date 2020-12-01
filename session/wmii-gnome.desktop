@@ -1,10 +1,9 @@
 [Desktop Entry]
+Name=GNOME wmii
+Comment=This session logs you into GNOME with wmii as the window manager
+Exec=/usr/sbin/gnome-session-wmii
+TryExec=gnome-session
+Icon=
 Type=Application
-Name=wmii-gnome
-NoDisplay=true
-Comment=improved dynamic tiling window manager
-Exec=wmii-gnome
-X-GNOME-WMName=wmii-gnome
-X-GNOME-Autostart-Phase=WindowManager
-X-GNOME-Provides=windowmanager
-X-GNOME-Autostart-Notify=false
+DesktopNames=GNOME
+X-Ubuntu-Gettext-Domain=gnome-session-3.0

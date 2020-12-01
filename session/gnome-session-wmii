@@ -1,2 +1,8 @@
 #! /bin/sh
-env GNOME_SHELL_SESSION_MODE=classic gnome-session --session wmii-gnome "$@"
+export GNOME_SHELL_SESSION_MODE=classic
+
+if [ -z $XDG_CURRENT_DESKTOP ]; then
+  export XDG_CURRENT_DESKTOP="GNOME-wmii:GNOME"
+fi
+
+exec gnome-session --systemd --session=wmii-gnome --disable-acceleration-check "$@"
